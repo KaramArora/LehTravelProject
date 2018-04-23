@@ -1,0 +1,252 @@
+body {
+    background: lightgrey;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/traveler.jpg') no-repeat right;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+
+/*
+.heading {
+    font-family:  serif;
+    font-size: 1.5em;
+    margin-left: 35%;
+    margin-right: auto;
+    color: lightgrey;
+    position: absolute;
+    left: 1%;
+    top: 15px;
+}
+*/
+
+.header {
+    text-align: center;
+/*    background: #2F4F4F;*/
+    width: 100%;
+    height: 0em;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+
+.heading a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+	margin-top: 5px;
+    position: fixed;
+    left: 1%;
+    top: 5%;
+    padding-left: 0px;
+}
+
+.heading a,
+.main-nav a {
+/*		display: block;*/
+		text-align: center;
+/*		padding: 10px 15px;*/
+        text-decoration: none;
+
+}
+	
+.main-nav a {
+		font-size: 1em;
+		color: #fff;
+		text-transform: uppercase;
+/*        padding-top: 30px;*/
+	}
+
+.main-nav a:hover {
+		color: darkcyan;
+	}
+
+/*
+.main-blog-area {
+    padding-top: 1em;
+}
+*/
+
+/*
+.travellerslist {
+    font-family:  sans-serif;
+    font-size: 1.5em;
+    padding-left: 11%;
+    padding-top: 5%;
+}
+*/
+
+label{
+  margin-top: 30px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+    margin-left: 20px;
+    color: white;
+}
+
+.previewbutton {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #FFF;
+  background-color:#1E90FF;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 10%;
+  border: 1px solid #191970;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  position: absolute;
+    
+}
+
+/*
+input[type="text"] {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 13%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+
+}
+*/
+
+input, textarea {
+    width: 40%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #cdcfcf;
+    margin-top:5px;
+    padding: 20px;
+    color: white;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    margin-left: 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.blogPage-title{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+#blogTitlePreview{
+  font-family: serif;
+  font-size: 40px
+}
+
+#blogContentPreview{
+  line-height: 25px;
+  color: white;
+  font-family: serif;
+  font-size: 18px;
+}
+
+#blogContentInput {
+    margin-top: 0em;
+    margin-left: 1em;
+}
+
+#blogTitleInput {
+    margin-left: 1em;
+}
+
+/*
+.titleLabel {
+    position: absolute;
+    top:5em;
+}
+
+.adventureLabel {
+    position: absolute;
+    top:13.5em;
+}
+*/
+
+#flashMessage {
+    color: white;
+    background-color: #64ce83;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 100px);
+/*    margin-bottom: 40px;*/
+}
+
+.blogNewPost{
+  float: left;
+  width: 30%;
+}
+
+.blogPreviewArea{
+  float: right;
+  width: 40%;
+  margin-left: 100px;
+  min-height: 400px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  color: white;
+}
+
+
+
+/*
+.addnamesection {
+    width: 70%;
+    margin-left: 11%;
+    margin-top: 10%;
+}
+
+.names li {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.addname {
+    color: white;
+}
+*/
+
+
+@media (min-width: 769px) {
+
+    
+    .main-nav {
+		float: left;
+        margin-left: auto;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+    
+    .heading {
+        float: left;
+    }
+
+    
+
+}

@@ -1,0 +1,17 @@
+.weather-control {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+
+.city-input {
+    width: 2em;
+}
+
+.search-city-btn {
+    position: absolute;
+    top: 0px;
+    left: 13em;
+  
+    text-align: center;
+}

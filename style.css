@@ -1,0 +1,701 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.header {
+	
+                
+    background-size: 100%;
+    
+    height: 700px;
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/lamayuru1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+/*    background-attachment: fixed;*/
+/*
+    text-align: center;
+    padding-top: 3em;
+    margin-top: 5%;
+*/    
+}
+
+/*******************************************/
+/*WildLife*/
+/******************************************/
+
+
+.wildlife img {
+    width: 300px;
+    height: 300px;
+}
+
+.wildlife {
+    margin-left: 5em;
+    width: 90%;
+}
+
+.wildlife-title {
+color: #00ff6c;
+}
+
+.wildlife-column { 
+    position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.wildlife-column:hover .overlay {
+  opacity: 1;
+}
+
+
+/*******************************************/
+/*WildLife*/
+/******************************************/
+
+
+
+.main-content {
+    background-size: 100%;
+}
+
+/*******************************************/
+/*Carousel*/
+/******************************************/
+.carousel-inner:after{
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.3);
+}
+
+
+
+.carousel-inner > .carousel-item > img {
+  width:100%;
+  height:800px;
+}
+
+.carousel-caption  {
+   background: rgba(0,0,0,0.5);
+}
+
+.carousel-item {
+    background-size: 100%;
+    height: 800px;
+}
+
+.carousel-card-textbox {
+    background:#232323;
+    outline: 2px solid #00ff6c;
+    outline-offset: -2em;
+    height: 400px;
+    color: white;
+    width: 27%;
+    padding: 3em;
+    position: relative;
+    top: 30em;
+    box-shadow: 15px 15px 10px rgba(0,0,0, .8);
+}
+
+
+.carousel-card-title 
+ 
+{
+    color: #00ff6c;
+    position: absolute;
+    top: .3em;
+    left: 3em;
+    background: #232323;
+    padding: 2px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5px;
+    
+}
+
+/*******************************************/
+/*Carousel*/
+/******************************************/
+
+
+.my-card-group {
+    margin-bottom: 7em;
+}
+
+
+.more-places-h1 {
+    color: #00ff6c;
+}
+
+.name {
+	font-size: 1em;
+	margin: 0;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    text-transform: uppercase;
+    
+}
+
+.name a {
+    color: white;
+}
+
+.main-nav {
+	margin-top: 5px;
+    position: absolute;
+    left: 60%;
+    top: 2%;
+    
+    
+}
+
+.name a,
+.main-nav a {
+		display: block;
+		text-align: center;
+		padding: 10px 15px;
+}
+	
+.main-nav a {
+		font-size: .95em;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+.main-nav a:hover {
+		color: #00ff6c;
+	}
+
+
+
+
+.arrow {
+    width:70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.logo {
+    width: 70px;
+    float: left;
+    margin-left:;
+    position: absolute;
+    top: 1%;
+    left:5%;
+
+}
+
+.heading {
+      position: absolute;
+      top: 2em;
+      left: 17%;
+      font-size: 4.625rem; /* 90px/16px  */
+      color: rgba(255, 255, 255, 1);
+      text-transform: uppercase;
+      font-weight: normal;
+      line-height: 1.3;
+      text-align: center;
+      text-shadow: 5px 8px 10px #222;
+      margin: 12px 0 0;
+}
+
+
+
+/*
+.main-content-border {
+    margin-top: 50px;
+}
+*/
+
+h2, h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 2em; /* 34px */
+/*    margin-top: 2em;*/
+}
+
+h2 {
+    color: white;
+}
+
+.title {
+  position: absolute;
+  top: 20%;
+  left: 16%;
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  text-align: center;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  letter-spacing: 0.40em;
+  font-weight: 200;
+    
+}
+
+body {
+	line-height: 1.6;
+	color: white;
+    margin: 0;
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    background-color: orange;*/
+
+}
+
+.wrap {
+    background-color: #3a3a3a;
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6; 
+  text-align: center;
+  color: white;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/leh-kingdom2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 18% 24%;
+    
+/*  border-top: 10px solid #3;*/
+  margin: 5em 0 60px;
+  box-shadow: 15px 15px 10px rgba(0,0,0, .8);
+   
+    
+  border-radius: 25px;
+}
+
+.container-intro {
+    margin-top: 20em;
+    width: 70%;
+    margin-left: 13em;
+}
+
+.Intro {
+    text-align: center;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+    color: orange;
+}
+
+figure {
+    margin: 0;
+    line-height: 0;
+    position: relative
+}
+
+figcaption {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #fff;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    bottom: 11px;
+    width: 100%;
+}
+
+.ladakh {
+    margin: auto;
+    margin-right: 80px;
+    
+}
+
+.tanglang {
+    margin: auto;
+    margin-right: 100px;
+    width: 100%;
+    padding: 10px;
+    border: solid 2px #d9e4ea;
+    height: 10%;
+}
+
+.lachung-la {
+    margin: auto;
+    margin-right: 100px;
+    width: 100%;
+    padding: 10px;
+    border: solid 2px #d9e4ea;
+    height: 50px;
+}
+
+.lachungla {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*
+.main-content img {
+    max-width: 100%;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+*/
+
+
+
+
+
+/*
+.main-nav a {
+	font-size: .95em;
+	color: white;
+	text-transform: uppercase;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+.main-nav {
+    position: fixed;
+}
+
+.top-heading {
+    color: orange;
+    position: absolute;
+    left: 1px;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+*/
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.5em;
+}
+
+.attractions a {
+    color: #3acec2;
+    text-emphasis: bold;
+}
+
+/*
+.more-attractions {
+    margin-top: 2em;
+}
+*/
+
+.palace
+{
+    width: 49.50%;
+    height: 450px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("Images/leh-palace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lama {
+    width: 49.50%;
+    height: 450px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("Images/lamayuru2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.palace-lama {
+    padding-top: 5em;
+    margin-bottom: 10em;
+    color: white;
+    height: 500px;
+    
+}
+
+/*
+.baralacha-content  {
+    float: left;
+}
+*/
+
+.baralacha-la {
+/*    width: 46.5%;*/
+/*
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+*/
+     
+/*    float: left;*/
+/*
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/baralacha.jpg') no-repeat center;     
+    background-size: 100% 100%;
+*/
+}
+/*
+
+.baralacha-content {
+     background: rgba(0, 0, 0, 0.5);
+     color: #f1f1f1;
+}
+*/
+
+/*
+.baralacha-img {
+    width: 300px;
+    float: right;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+*/
+
+.baralacha {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6; 
+  text-align:left;
+  color: white;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(Images/leh-kingdom.jpg);
+/*  background-position: center;*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 18% 24%;
+/*  border-top: 10px solid #3acec2;*/
+  margin: 50px 0 ;
+/*  box-shadow: 15px 15px 10px rgba(0,0,0, .8);*/
+    
+/*  border-radius: 25px;*/
+    width: 100%;
+    margin-top: 7em;
+    background-attachment: fixed;
+}
+
+.display-4 {
+    text-align: center;
+    padding-bottom: 1em;
+    color: white;
+}
+
+/*
+.baralacha p {
+    position: 
+}
+
+.rohtang-img{
+    width: 300px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+*/
+
+.moriri {
+      width: 300px;
+    float: right;
+/*    margin-top: 5px;*/
+    margin-left: 25px;
+/*    margin-bottom: 2px;*/
+    border-radius: 10px;
+}
+
+.moriri-lake {
+    margin-bottom: 70px;
+}
+
+.lamayuru {
+      width: 300px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 25px;
+/*    margin-bottom: 25px;*/
+    border-radius: 10px;
+}
+
+
+
+.rohtang {
+/*
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/rohtang-pass.jpg') no-repeat center;
+    background-size: 100% 100%;
+    color: white;
+*/
+/*    width: 46.5%;*/
+/*
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+*/
+    margin-bottom: 70px;
+}
+
+.group-one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+  margin: auto;
+  margin-left: auto;
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+/*  color: #3acec2;*/
+  text-decoration: none;
+}
+
+/*
+a:visited {
+  color: lightblue;
+}
+*/
+
+/*
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+*/
+/*
+
+a:active {
+  color: lightcoral;
+}
+*/
+
+/*
+.arrow:hover {
+    transform: scale(1.5);
+    transition: all .5s;
+    transform: rotate(30deg);
+}
+*/
+
+/*
+.logo:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+*/
+
+
+/*
+.attractions img:hover {
+    transform: scale(1.5);
+    transition: all .5s;
+}
+*/
+
+.map-title {
+    margin-left: 0em;
+    padding-top: 1em;
+}
+
+#map {
+    
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+}
+
+.main-footer {
+    text-align: center;
+	padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    margin-top: 2em;
+    border-bottom: 10px solid dimgrey;
+}
+
+#togglelist{
+/*  padding: 7px 50px 10px 10px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  color: #FFF;
+  background-color:#3CB371;
+  font-size: 15px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 8%;
+  border: 1px solid darkgreen;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+
+	.wrap {
+		min-height: calc(100vh - 89px);
+	}
+
+	.myContainer {
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+        width: 100%;
+        
+	}
+    
+    .main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+    
+    .name {
+        float: left;
+    }
+
+    
+
+}
+

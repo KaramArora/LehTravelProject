@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+       <link href="normalize.ss.css" rel="stylesheet">
+       <link href="weather.css" rel="stylesheet">
+       <meta name="viewport" content="width=device-width">
+       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+    <title>Page Title</title>
+</head>
+<body>
+    
+    <header>
+         <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="travellers.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sign-up.html">Sign in</a>
+              </li>
+<!--
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+-->
+        </ul>
+    </header>
+
+    <div class="jumbotron">
+          <h1 class="display-4">Check out the weather!</h1>
+          <p class="lead">Going somewhere! check weather first.</p>
+          <hr class="my-4">
+          <p>Write the city name to check current wheather.</p>
+        
+        <span id="error"></span>
+        
+        <div class="weather-control">
+          
+            <input type="text" name="city" id="city" class="form-control city-input" placeholder="City Name">
+            <button id="submitweather" class="btn btn-primary btn-md search-city-btn">Search City</button> 
+        </div>
+        
+    </div>
+    
+    <div id="show"></div>
+    
+    <script src="weather.js"></script>
+    <script src="ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       
+       
+                 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+</body>
+</html>
